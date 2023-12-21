@@ -334,3 +334,18 @@ thead {
     rgba(43, 133, 108, 0.65) 100%
   );
 }
+/***footer***/
+.footer {
+  width: 100%;
+}
+.footer__wrapper {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer__copyright {
+  color: #fff;
+  font-size: 10px;
+  margin-left: auto;
+  opacity: 0.5;
+}
