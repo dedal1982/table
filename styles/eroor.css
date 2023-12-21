@@ -12,19 +12,19 @@
 }
 .error__title {
   color: aliceblue;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 2.92rem;
   line-height: 110%;
 }
 .error__subtitle {
   color: aliceblue;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 2.28rem;
   line-height: 110%;
 }
 .error__subtitle-text {
   color: aliceblue;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.64rem;
   line-height: 110%;
 }
