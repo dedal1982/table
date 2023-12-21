@@ -46,6 +46,7 @@
   padding: 1.5rem;
   box-sizing: border-box;
   border-left: 3px solid red;
+  word-break: break-all;
 }
 .error__image {
   margin: auto auto 0;
