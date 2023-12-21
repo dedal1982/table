@@ -11,6 +11,11 @@
   justify-content: center;
   gap: 30px;
 }
+.error__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .error__title {
   color: aliceblue;
   font-weight: 400;
@@ -38,8 +43,8 @@
 .error__text {
   max-width: 800px;
   width: 100%;
-  min-height: 100px;
-  padding-left: 30px;
+  margin: 20px 0;
+  padding-left: 1.5rem;
   box-sizing: border-box;
   border-left: 3px solid red;
   display: flex;
