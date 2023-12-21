@@ -63,7 +63,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
 }
 .top-app__title {
   color: aliceblue;
@@ -78,9 +78,25 @@ ul {
   line-height: 1.3;
 }
 .top-app__error {
-  width: 800px;
-  height: 100px;
-  border: 1px solid #fff;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  border-left: 3px solid red;
+}
+.top-app__error-text {
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+}
+.top-app__error-title {
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
 }
 .top-app__date {
   color: aliceblue;
@@ -130,7 +146,7 @@ ul {
 }
 
 .player__avatar:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 .player__profile-name {
   color: aliceblue;
@@ -158,7 +174,7 @@ ul {
   font-weight: 400;
   font-size: 1.1em;
   line-height: 1.3;
-  border-radius: 8px;
+  border-radius: 5px;
   background: linear-gradient(
     180deg,
     #35b18e 0%,
@@ -180,6 +196,7 @@ ul {
   flex-wrap: wrap;
   padding: 25px;
   box-sizing: border-box;
+  border-radius: 8px;
   gap: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
