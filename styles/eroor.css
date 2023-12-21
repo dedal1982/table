@@ -14,7 +14,7 @@
 .error__list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 }
 .error__title {
   color: aliceblue;
@@ -43,12 +43,9 @@
 .error__text {
   max-width: 800px;
   width: 100%;
-  margin: 20px 0;
-  padding-left: 1.5rem;
+  padding: 1.5rem;
   box-sizing: border-box;
   border-left: 3px solid red;
-  display: flex;
-  align-items: center;
 }
 .error__image {
   margin: auto auto 0;
